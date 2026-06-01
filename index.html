@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pack +100 Prompts Ultra Realistas</title>
+    <title>Pack +500 Prompts Ultra Realistas</title>
     
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1428802342258913');
+    fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+
     <!-- Circulary Structure Patch for 3rd Party Scripts -->
     <script>
       (function() {
@@ -21,19 +36,20 @@
         };
       })();
     </script>
-
+    
     <!-- UTMify Scripts -->
     <script>
-      window.pixelId = "69b09344fdc32e20750ca6ff";
+      window.pixelId = "6a1de3fb4a2768cea7480378";
       var a = document.createElement("script");
       a.setAttribute("async", "");
       a.setAttribute("defer", "");
       a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
       document.head.appendChild(a);
     </script>
+    
+    <!-- UTMify Script -->
     <script
       src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-      data-utmify-prevent-xcod-sck
       data-utmify-prevent-subids
       async
       defer
@@ -46,7 +62,7 @@
         theme: {
           extend: {
             colors: {
-              neon: '#3B82F6',
+              neon: '#00E676',
             }
           }
         }
@@ -73,20 +89,20 @@
         border-radius: 5px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #3B82F6;
+        background: #00E676;
       }
 
       .neon-glow {
-        box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+        box-shadow: 0 0 30px rgba(0, 230, 118, 0.5);
       }
       .bg-neon {
-        background-color: #3B82F6;
+        background-color: #00E676;
       }
       .text-neon {
-        color: #3B82F6;
+        color: #00E676;
       }
       .border-neon {
-        border-color: #3B82F6;
+        border-color: #00E676;
       }
 
       /* Marquee Animations */
@@ -131,6 +147,7 @@
 <link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-white text-black">
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1428802342258913&ev=PageView&noscript=1" /></noscript>
     <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
